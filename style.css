@@ -1,0 +1,137 @@
+body{
+    background: black;
+    margin: 0;
+}
+.outer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.calc-out{
+    width: 400px;
+    height: 550px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: hsl(62, 100%, 50%);
+    padding-top: 20px;
+    
+}
+.screen-display{
+    width: 360px;
+    height: 80px;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18px;
+
+}
+#screen-inp{
+    width: 360px;
+    height: 80px;
+    border-style: double;
+    border-radius: 7px;
+    border-color: darkslategrey;
+    pointer-events: none;
+    background-color: rgba(235, 220, 202, 0.83);
+
+}
+.row1
+{
+    width: 340px;
+    height: 70px;
+    
+    margin-top: 60px;
+    margin-left: 36px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row2
+{
+    width: 340px;
+    height: 70px;
+    
+    margin-top: 160px;
+    margin-left: 36px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row3
+{
+    width: 340px;
+    height: 70px;
+    
+    margin-top: 260px;
+    margin-left: 36px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row4
+{
+    width: 340px;
+    height: 70px;
+    
+    margin-top: 360px;
+    margin-left: 36px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(208, 196, 174, 0.455);
+    margin-right: 16px;
+    font-size: xx-large;
+    font-weight: 600;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+
+    
+}
+.btne{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(224, 149, 20, 0.4);
+    margin-right: 16px;
+    font-size: xx-large;
+    font-weight: 600;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+}
+.btnequal
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(26, 186, 146, 0.552);
+    margin-right: 16px;
+    font-size: xx-large;
+    font-weight: 600;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(208, 196, 174, 0.697);
+}
+.btne:hover{
+    cursor: pointer;
+    background-color: rgba(224, 149, 20, 0.558);
+}
+.btnequal:hover{
+    cursor: pointer;
+    background-color: rgba(26, 186, 146, 0.704);
+}
